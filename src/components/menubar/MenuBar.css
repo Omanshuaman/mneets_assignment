@@ -1,0 +1,103 @@
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.w3-sidebar {
+  z-index: 1;
+  position: absolute;
+  width: 426px;
+  height: 1024px;
+  left: 0px; /* start offscreen to the left */
+  top: 0;
+  background: #f2f2f2;
+  transition: left 350ms ease-in-out; /* transition the left property */
+}
+.w3-sidebar.visible {
+  left: -426px; /* move to the left edge of the screen */
+}
+.w3-bar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  color: #555;
+}
+
+.w3-bar-item:hover {
+  background: #fbfefd;
+  border-radius: 15px; /* or any other value you prefer */
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  /* Glocali.se */
+  display: flex;
+  justify-content: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1724px;
+  line-height: 25px;
+  padding: 32px;
+  letter-spacing: 0.075865px;
+
+  color: #000000;
+}
+.collapse-svg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+  max-width: 30px;
+}
+
+.collapse-svg:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfefd;
+  padding: 10px;
+  border-radius: 30%;
+}
+.home-svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.name-tag {
+  width: 210px;
+  height: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4c4c4c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.w3-teal {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.w3-teal:hover {
+  transform: scale(1.1);
+}

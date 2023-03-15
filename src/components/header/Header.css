@@ -1,0 +1,51 @@
+.search {
+  position: absolute;
+  left: 425px;
+  width: 900px;
+}
+
+.search-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 0px 30px 49px;
+  gap: 131px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 470px 8px 16px;
+  gap: 10px;
+  width: 510px;
+  height: 20px;
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+.search-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search-dropdown-user {
+  display: flex;
+}
+.search-dropdown-username {
+  display: flex;
+}
+.search-dropdown-username-name {
+  width: 45px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
